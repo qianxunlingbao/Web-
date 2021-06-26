@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*overflow: hidden;*/  /*页面高度会固顶不变*/
+}
+
+/*导航栏*/
+.ul1 li{
+    display: inline;
+}
+
+/*头部*/
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    height: 100px;
+}
+
+/*left*/
+.leftContent{
+    width: 10%;
+    float: left;
+    background-color: red;
+    height: 800px;
+}
+
+/*content*/
+.container{
+    width: 80%;
+    float: left;
+    background-color: blanchedalmond;
+    height: 800px;
+}
+
+/*right*/
+.rightContent{
+    width: 10%;
+    float: left;
+    background-color: aqua;
+    height: 800px;
+}
