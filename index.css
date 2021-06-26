@@ -5,6 +5,28 @@
     /*overflow: hidden;*/  /*页面高度会固顶不变*/
 }
 
+/*链接效果*/
+
+/*未被访问的链接*/
+a:link{
+    color: red;
+}
+/*已被访问过的链接*/
+a:visited{
+    color: rgb(0, 174, 255);
+}
+
+/*鼠标移动到链接上*/
+a:hover{
+    color: springgreen;
+}
+
+/*鼠标点击链接的时刻*/
+a:active{
+    color: yellow;
+}
+
+
 /*导航栏*/
 .ul1 li{
     display: inline;
